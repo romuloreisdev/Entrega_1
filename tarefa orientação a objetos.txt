@@ -1,0 +1,52 @@
+'Função calcular figura geométrica'
+
+Perguntar ao usuário qual figura deseja calcular
+sendo
+1 - quadrado
+2 - triângulo retângulo
+3 - círculo
+
+perguntar qual das opções deseja calcular
+1 - área 
+2 - perímetro
+
+solicitar a informação correspondente a figura:
+se QUADRADO
+	então
+		solicitar é a medida do lado do quadrado
+
+se área
+	então calcular lado * lado
+
+	senão perímetro
+		calcular lado *4
+	informar resposta na tela
+
+
+se TRIÂNGULO RETÂNGULO
+	solicitar cateto 1 e cateto 2
+		
+se área
+	então calcular (cateto1 * Cateto2)/2
+	informar resposta na tela
+
+
+senão perímetro
+	calcular hipotenusa = ((cateto1^2+cateto2^2)^1/2
+	calcular hipotenusa+cateto1+cateto2
+	informar resposta na tela
+
+
+se CÍRCULO
+	então
+		solicitar é a medida do raio
+
+se área
+	então calcular area = (raio^2)*pi
+	informar resposta na tela
+
+senão perímetro
+	calcular perímetro = 2*pi*raio
+	informar resposta na tela
+
+fim
